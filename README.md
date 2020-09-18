@@ -18,7 +18,10 @@ Para el desarrollo del presente análisis se utilizó el programa RStudio, ejecu
 
 ##DATOS QUEBRADA DANTAS##
 
-´´´[r]
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
 
 
 install.packages("readxl")
