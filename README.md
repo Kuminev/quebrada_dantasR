@@ -41,7 +41,6 @@ Ahora se comienza a desarrollar el análisis a partir de diferentes elementos:
 ```{r setup, include=FALSE}
 ggplot(Datos_caudal, aes(x = Date, y = `Level (cm)`, group = 1)) +
   geom_line()
-
 plot(
   Datos_caudal$Date, 
   Datos_caudal$`Level (cm)`,
@@ -49,7 +48,6 @@ plot(
   xlab='Fecha',
   ylab='Luvia'
 )
-
 #ggplot(Datos_Quebrada_Dantas, aes(x = Date, y = Q(L/s))) +
   geom_line()
 ```
