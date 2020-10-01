@@ -4,7 +4,8 @@
 
 En el presente trabajo se hará una recopilación y análisis de información sobre el comportamiento de la Quebrada Grande, la cual entre otras presenta las siguientes características
 
-![LOOP](/IMAGENES/tarea1.JPG)
+![](/IMAGENES/tarea1.JPG)
+![](/Imagen/Mapa 1.PNG)  
 
 
 PONER IMAGEN DE UN MAPA_sick
