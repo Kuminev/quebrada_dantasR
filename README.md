@@ -10,7 +10,7 @@ output: html_document
 
 ## Curso FP-0963-001
 
-###La micro-cuenca de Quebrada Dantas.
+### La micro-cuenca de Quebrada Dantas.
 
 En el presente trabajo se hará una recopilación y análisis de información sobre el comportamiento de la Quebrada Dantas, la cual entre otras presenta las siguientes características
 
@@ -18,7 +18,7 @@ PONER IMAGEN DE UN MAPA_sick
 
 Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
-Inicialment importar los datos Import dataset, establecer el nuevo data frame de trabajo de los datos de caudal y generar una visualización de los datos:
+1) Importar los datos Import dataset, establecer el nuevo data frame de trabajo de los datos de caudal y generar una visualización de los datos:
 
 ```{r}
 Datos_Quebrada_Dantas_fbk <- read_excel("E:/DCS/MAESTRIA GIRHS/HIDROLOGIA/Proyecto final/Datos_Quebrada_Dantas_fbk.xlsx", 
