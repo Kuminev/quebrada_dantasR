@@ -1,13 +1,3 @@
----
-title: "Proyecto final Hidrología: Quebrada Dantas"
-author: "Fernando Bermúdez y Priscilla Obando"
-date: "24/9/2020"
-output: html_document
----
-
-```{r}
-```
-
 ## Curso FP-0963-001
 
 ### La micro-cuenca de Quebrada Grande.
