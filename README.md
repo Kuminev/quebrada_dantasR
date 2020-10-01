@@ -14,7 +14,7 @@ output: html_document
 
 En el presente trabajo se hará una recopilación y análisis de información sobre el comportamiento de la Quebrada Grande, la cual entre otras presenta las siguientes características
 
-![Mapa 1. Ubicación y elevación. Fuente, Sanchez, 2019.](/quebrada_dantasR/Mapa 1.PNG)
+![Mapa 1. Ubicación y elevación. Fuente, Sanchez, 2019.](Kuminev/quebrada_dantasR/Mapa 1.PNG)
 
 PONER IMAGEN DE UN MAPA_sick
 
