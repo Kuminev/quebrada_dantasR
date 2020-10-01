@@ -4,7 +4,7 @@
 
 En el presente trabajo se hará una recopilación y análisis de información sobre el comportamiento de la Quebrada Grande, la cual entre otras presenta las siguientes características
 
-![](/quebrada_dantasR/Imagen/Mapa 1.PNG)
+![](Imagen/Mapa 1.PNG)
 
 PONER IMAGEN DE UN MAPA_sick
 
