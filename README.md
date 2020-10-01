@@ -5,8 +5,9 @@
 En el presente trabajo se hará una recopilación y análisis de información sobre el comportamiento de la Quebrada Grande, la cual entre otras presenta las siguientes características.
 
 ![](/Imagen/Mapa 1.PNG)  
+**Mapa 1**. Ubicación geográfica de la micro-cuenca Quebrada Grande. Fuente: Sanchez, 2020.
 
-PONER IMAGEN DE UN MAPA_sick
+
 
 Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
