@@ -5,8 +5,7 @@ date: "24/9/2020"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
 ```
 
 ## Curso FP-0963-001
