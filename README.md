@@ -12,9 +12,10 @@ En el presente trabajo se hará una recopilación y análisis de información so
   <tr><td>3.90</td><td>Heredia</td><td>38</td>
 </table>
 
-Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
+ Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
 1) Importar los datos, establecer el data frame de trabajo de los datos de caudal y generar una visualización de los datos en escala temporal:
+
 ```{r}
 
 str(Datos_Quebrada_Dantas_fbk)
@@ -56,7 +57,6 @@ Seguidamente se procedió a la visualización de los datos en una escala logarí
 plot(Datos_stream$`Q (L/s)`, Datos_stream$`Date`)
 ```
 ```{r}
-
 install.packages("readxl")
 install.packages("gapminder")
 install.packages("dplyr")
@@ -84,15 +84,15 @@ ggplot(Datos_stream, aes(x = `Date`, y = `Q (L/s)`)) +
   coord_fixed() +
   breaks = trans_breaks("log10", function(x) 10^x)
 
-#histograma
+*Hisotgrama*
 
 ggplot(Datos_stream, aes(x= `Q (L/s)`)) +
   geom_histogram( binwidth=5, fill="#669933", color="#669933", alpha=0.9) +
   ggtitle("Histograma de caudal")+
   theme_classic()
 
-
-#Frecuencia acumulada
+**Frecuencia acumulada**
+```
 
 Inicialmente se debe de realizar el cálculo de mínimos y máximos
 
