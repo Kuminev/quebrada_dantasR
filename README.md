@@ -12,7 +12,7 @@ En el presente trabajo se hará una recopilación y análisis de información so
   <tr><td>3.90</td><td>11900</td><td>Heredia</td><td>Vara Blanca</td>
 </table>
 
-Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
+*Se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
 1) Importar los datos, establecer el data frame de trabajo de los datos de caudal y generar una visualización de los datos en escala temporal:
 
