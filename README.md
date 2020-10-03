@@ -8,9 +8,8 @@ En el presente trabajo se hará una recopilación y análisis de información so
 **Mapa 1**. Ubicación geográfica de la micro-cuenca Quebrada Grande. Fuente: Sanchez, 2020.
 
 <table>
-  <tr><th>Área (km2)</th><tr>Perímetro (m)</th><th>Provincia</th><th>Distrito</td>
+  <tr><th>Área (km2)</th><th>Perímetro (m)</th><th>Provincia</th><th>Distrito</td>
   <tr><td>3.90</td><tr>11900)</th><th><td>Heredia</td><td>Vara Blanca</td>
-
 </table>
 
 Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
