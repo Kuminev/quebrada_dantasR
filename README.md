@@ -17,7 +17,6 @@ Inicialmente se procedió a la elaboración de un análisis estadístico y para 
 1) Importar los datos, establecer el data frame de trabajo de los datos de caudal y generar una visualización de los datos en escala temporal:
 
 ```{r}
-
 str(Datos_Quebrada_Dantas_fbk)
 
 Datos_stream <- Datos_Quebrada_Dantas_fbk
@@ -26,7 +25,7 @@ str(Datos_stream)
 
 plot(Datos_stream$`Q (L/s)`, Datos_stream$`Date`)
 
-#puntos
+_Puntos
 plot(
   Datos_stream$`Date`, 
   Datos_stream$`Q (L/s)`,
@@ -37,7 +36,6 @@ plot(
 ```
 
 ![](/Imagen/Imagen/Rplot.png)  
-
 **Grafico 1**. Caudal por año (puntos). Fuente: Sanchez, 2020.
 
 ```{r}
@@ -58,7 +56,7 @@ ggplot(Datos_stream, aes(x = Date, y = `Level (cm)`))+
   scale_y_log10()
 ```
 
-**Grafico 2**. Caudal por año caudal (log10) por año. Fuente: Sanchez, 2020.
+**Grafico 2**. Caudal por año caudal (log10). Fuente: Sanchez, 2020.
 
 Posteriorme se construyó el histograma del cadudal.
 
