@@ -9,7 +9,9 @@ En el presente trabajo se hará una recopilación y análisis de información so
 
 <table>
   <tr><th>Área (km2)</th><th>Provincia</th><th>Distrito</td>
-  <tr><td>3.90</td><td>Heredia</td><td>38</td></table>
+  <tr><td>3.90</td><td>Heredia</td><td>38</td>
+
+</table>
 
 Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
@@ -59,17 +61,15 @@ ggplot(Datos_stream, aes(x = Date, y = `Level (cm)`))+
 
 **Grafico 2**. Caudal por año caudal (log10) por año. Fuente: Sanchez, 2020.
 
-*Hisotgrama*
+Posteriorme se construyó el histograma del cadudal.
 
+```{r}
 ggplot(Datos_stream, aes(x= `Q (L/s)`)) +
   geom_histogram( binwidth=5, fill="#669933", color="#669933", alpha=0.9) +
   ggtitle("Histograma de caudal")+
   theme_classic()
+ ```
 
-**Frecuencia acumulada**
-```
-
-Estadísticas generales
 
 
 
