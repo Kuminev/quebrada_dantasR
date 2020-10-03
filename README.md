@@ -30,7 +30,7 @@ plot(
   ylab='Caudal Q (L/s)'
 )
 
-![](/Imagen/Grafico 1)  
+![](/Imagen/Imagen/Rplot.png)  
 **Grafico 1**. Caudal por año. Fuente: Sanchez, 2020.
 
 ```
