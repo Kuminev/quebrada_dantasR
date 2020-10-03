@@ -8,13 +8,14 @@ En el presente trabajo se hará una recopilación y análisis de información so
 **Mapa 1**. Ubicación geográfica de la micro-cuenca Quebrada Grande. Fuente: Sanchez, 2020.
 
 <table>
-  <tr><th>Área (km2)</th><th>Provincia</th><th>Distrito/th>
+  <tr><th>Área (km2)</th><th>Provincia</th><th>Distrito</td>
   <tr><td>3.90</td><td>Heredia</td><td>38</td>
-  <tr><td>Oscar</td><td>Sanabria</td><td>39</td>
 </table>
+
 Inicialmente se procedió a la elaboración de un análisis estadístico y para el desarrollo del presente análisis se utilizó el programa RStudio, ejecutando los siguientes pasos:
   
 1) Importar los datos, establecer el data frame de trabajo de los datos de caudal y generar una visualización de los datos en escala temporal:
+```{r}
 
 str(Datos_Quebrada_Dantas_fbk)
 
@@ -32,6 +33,7 @@ plot(
   xlab='Año',
   ylab='Caudal Q (L/s)'
 )
+```
 
 ![](/Imagen/Imagen/Rplot.png)  
 **Grafico 1**. Caudal por año (puntos). Fuente: Sanchez, 2020.
