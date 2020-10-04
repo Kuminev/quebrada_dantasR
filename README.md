@@ -38,13 +38,16 @@ plot(
 **Grafico 1**. Caudal por año (puntos). Fuente: Sanchez, 2020.
 
 ```{r}
-#lineal ggplot
-ggplot(Datos_stream, aes(x = `Date`, y = `Q (L/s)`)) +
-  geom_point(alpha = 0.6) +
-  coord_fixed() +
-  breaks = trans_breaks("log10", function(x) 10^x)
+plot(
+  Datos_stream$`Date`, 
+  Datos_stream$`Q (L/s)`,
+  main='Caudal',
+  xlab='Año',
+  ylab='Caudal Q (L/s)',
+  type="l"
+)
 ```
-
+![](/Imagen/Rplot01.png)
 **Grafico 2**. Caudal por año (lineas). Fuente: Sanchez, 2020.
 
 Seguidamente se procedió a la visualización de los datos en una escala logarítimica, con el obejtivo de poder visualizar de mejor manera el comportamiento del caudal durante el periodo de análisis.
