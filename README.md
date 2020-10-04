@@ -57,7 +57,7 @@ ggplot(Datos_stream, aes(x = Date, y = `Level (cm)`))+
   geom_line()+
   scale_y_log10()
 ```
-
+![](/Imagen/caudal log10.png)
 **Grafico 2**. Caudal por año caudal (log10). Fuente: Sanchez, 2020.
 
 Posteriorme se construyó el histograma del cadudal.
