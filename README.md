@@ -59,10 +59,12 @@ ggplot(Datos_stream, aes(x = Date, y = `Level (cm)`))+
 ```
 ![](/Imagen/caudal log10.png)
 
-**Grafico 2**. Caudal por año caudal (escala log10). Fuente: Sanchez, 2020.
+**Grafico 3**. Caudal por año caudal (escala log10). Fuente: Sanchez, 2020.
 
-Análisis estacional:
+Gráfico de precipitación:
+![](/Imagen/Precipitacion.JPG)
 
+**Gráfico 4**. Precipitación anual (líneas cada 6 meses). Fuente: Sanchez, 2020.
 
 
 
