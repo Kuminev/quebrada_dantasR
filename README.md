@@ -34,7 +34,7 @@ plot(
 )
 ```
 
-![](/Imagen/Imagen/Rplot.png)  
+![](/Imagen/Rplot.png)  
 **Grafico 1**. Caudal por año (puntos). Fuente: Sanchez, 2020.
 
 ```{r}
